@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
   printf("Hello World!\n");     // (escape sequences) \n characters after each other will create a blank line:
-  printf("I am learning C.");
+  printf("I am learning C.\n");
+  system("pause");
   return 0;
 }
 
